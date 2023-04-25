@@ -1,0 +1,37 @@
+{
+    "host": "https://HOST:20000",
+    "auth": {
+        "username": "USERNAME",
+        "password": "PASSWORD"
+    },
+    "names": [
+        "胡桃",
+        "夜兰",
+        "温迪",
+        "可莉",
+        "甘雨",
+        "枫原万叶",
+        "雷电将军",
+        "妮露",
+        "纳西妲",
+        "流浪者",
+        "班尼特",
+        "行秋",
+        "香菱",
+        "久岐忍",
+        "瑶瑶"
+    ],
+    "oss": {
+        "enabled": true,
+        "endpoint": "http://oss-cn-hangzhou.aliyuncs.com",
+        "access_key_id": "ak",
+        "access_key_secret": "sk",
+        "bucket_name": "bucket"
+    },
+    "alert": {
+        "enabled": true,
+        "host": "https://msgpusher.com",
+        "username": "root",
+        "token": "TOKEN"
+    }
+}

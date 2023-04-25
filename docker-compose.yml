@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  yunzai-bot-script:
+    image: 117503445/yunzai-bot-script
+    container_name: yunzai-bot-script
+    volumes:
+      - ./config/config.json:/root/config.json:ro
+      - ./data:/root/data
+
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro

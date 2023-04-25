@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "yunzai-web-script"
+version = "0.1.0"
+description = ""
+authors = ["117503445 <t117503445@gmail.com>"]
+readme = "README.md"
+packages = [{include = "yunzai_web_script"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+oss2 = "^2.17.0"
+htutil = "^3.0.0"
+requests = "^2.28.2"
+message-pusher-sdk = "^0.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
